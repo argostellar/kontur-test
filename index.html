@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <title>Kontur - тестовое задание</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__upper-wrapper">
+            <div class="header__upper-container container">
+                <nav class="header__upper-nav upper-nav">
+                    <ul class="upper-nav__list">
+                        <li class="upper-nav__item">
+                            <a class="upper-nav__link" href="#current">Новости</a>
+                        </li>
+                        <li class="upper-nav__item">
+                            <a class="upper-nav__link" href="#current">Вопрос-ответ</a>
+                        </li>
+                        <li class="upper-nav__item">
+                            <a class="upper-nav__link" href="#current">О компании</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="header__phone-list phone-list">
+                    <li class="phone-list__item">
+                        <a class="phone-list__link" href="tel:+73830000000">+7 (383) 000-00-00</a>
+                    </li>
+                    <li class="phone-list__item">
+                        <a class="phone-list__link" href="tel:+73830000000">+7 (383) 000-00-00</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__middle-wrapper">
+            <div class="header__middle-container container">
+                <div class="header__logo-wrapper">
+                    <a class="header__logo-link" href="#no_scroll">
+                        <img class="header__logo-image" src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header__search-wrapper">
+                    <p class="header__text">Текст слогана или описание деятельности компании</p>
+                    <form class="header__search-form" action="#" method="GET">
+                        <label class="header__search-label" for="main-search">
+                            <input class="header__search-input" type="search" name="search" placeholder="Найти товар ..." id="main-search">
+                        </label>
+                    </form>
+                </div>
+                <div class="header__cart cart">
+                    <div class="cart__img-wrapper">
+                        <a class="cart__link" href="#cart">
+                            <img class="cart__image" src="img/cart.svg" width="41" height="41" alt="Cart Image">
+                        </a>
+                    </div>
+                    <span class="cart__counter">0</span>
+                </div>
+            </div>
+        </div>
+        <div class="header__lower-wrapper">
+            <nav class="header__lower-nav lower-nav container">
+                <ul class="lower-nav__list">
+                    <li class="lower-nav__item">
+                        <a class="lower-nav__link" href="#no_scroll">Главная</a>
+                    </li>
+                    <li class="lower-nav__item">
+                        <a class="lower-nav__link" href="#no_scroll">Доставка и оплата</a>
+                    </li>
+                    <li class="lower-nav__item">
+                        <a class="lower-nav__link" href="#no_scroll">Услуги</a>
+                    </li>
+                    <li class="lower-nav__item">
+                        <a class="lower-nav__link" href="#no_scroll">Акции</a>
+                    </li>
+                    <li class="lower-nav__item">
+                        <a class="lower-nav__link" href="#no_scroll">Контакты</a>
+                    </li>
+                    <li class="lower-nav__item">
+                        <a class="lower-nav__link" href="#no_scroll">Дизайнерам</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main container">
+        <h2 class="visually-hidden">Главная</h2>
+        <div class="leftside-wrapper">
+            <section class="catalogue">
+                <h3 class="catalogue__title">Каталог</h3>
+                <ul class="catalogue__list">
+                    <li class="catalogue__item catalogue__item--sales">
+                        <a class="catalogue__link" href="#no_scroll">Распродажа</a>
+                    </li>
+                    <li class="catalogue__item">
+                        <a class="catalogue__link" href="#no_scroll">Категория товаров</a>
+                    </li>
+                    <li class="catalogue__item">
+                        <a class="catalogue__link catalogue__link--with-drop-down" href="#no_scroll">Тут длинное название категории товаров</a>
+                        <div class="drop-down">
+                            <ul class="drop-down__list">
+                                <li class="drop-down__item">
+                                    <a class="drop-down__link" href="#no_scroll">Подкатегория</a>
+                                </li>
+                                <li class="drop-down__item">
+                                    <a class="drop-down__link" href="#no_scroll">Подкатегория ховер</a>
+                                </li>
+                                <li class="drop-down__item">
+                                    <a class="drop-down__link" href="#no_scroll">Длинное название подкатегории</a>
+                                </li>
+                                <li class="drop-down__item">
+                                    <a class="drop-down__link" href="#no_scroll">Подкатегория 2</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="catalogue__item">
+                        <a class="catalogue__link" href="#no_scroll">Категория 1</a>
+                    </li>
+                    <li class="catalogue__item">
+                        <a class="catalogue__link" href="#no_scroll">Категория 2</a>
+                    </li>
+                    <li class="catalogue__item">
+                        <a class="catalogue__link" href="#no_scroll">Категория 3</a>
+                    </li>
+                    <li class="catalogue__item">
+                        <a class="catalogue__link" href="#no_scroll">Категория 4</a>
+                    </li>
+                    <li class="catalogue__item">
+                        <a class="catalogue__link" href="#no_scroll">Категория 5</a>
+                    </li>
+                    <li class="catalogue__item">
+                        <a class="catalogue__link" href="#no_scroll">Категория 6</a>
+                    </li>
+                    <li class="catalogue__item">
+                        <a class="catalogue__link" href="#no_scroll">Категория 7</a>
+                    </li>
+                    <li class="catalogue__item">
+                        <a class="catalogue__link" href="#no_scroll">Категория 8</a>
+                    </li>
+                    <li class="catalogue__item">
+                        <a class="catalogue__link" href="#no_scroll">Категория 10</a>
+                    </li>
+                    <li class="catalogue__item">
+                        <a class="catalogue__link" href="#no_scroll">Тут длинное название категории товаров 2</a>
+                    </li>
+                    <li class="catalogue__item">
+                        <a class="catalogue__link" href="#no_scroll">Тут длинное название категории товаров 3</a>
+                    </li>
+                    <li class="catalogue__item">
+                        <a class="catalogue__link" href="#no_scroll">Категория 11</a>
+                    </li>
+                    <li class="catalogue__item">
+                        <a class="catalogue__link" href="#no_scroll">Категория 12</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="news">
+                <h3 class="news__title">Новости</h3>
+                <ul class="news__list">
+                    <li class="news__item">
+                        <div class="news__date-wrapper">
+                            <span class="news__date">12.12.20</span>
+                        </div>
+                        <a class="news__link" href="#news">Тут текст вашей новости в две строки </a>
+                    </li>
+                    <li class="news__item">
+                        <div class="news__date-wrapper">
+                            <span class="news__date">12.12.20</span>
+                        </div>
+                        <a class="news__link" href="#news">Тут текст вашей новости в две строки </a>
+                    </li>
+                    <li class="news__item">
+                        <div class="news__date-wrapper">
+                            <span class="news__date">12.12.20</span>
+                        </div>
+                        <a class="news__link" href="#news">Новое поступление товара</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="centralside-wrapper">
+            <section class="banner">
+                <h3 class="visually-hidden">Banner</h3>
+                <div class="banner__background">
+                    <button class="banner__button banner__button--prev" type="button">
+                        <span class="visually-hidden">Предыдущий</span>
+                        <svg class="banner__arrow bunner__arrow--prev" width="22" height="36" viewBox="0 0 22 36" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.4749 1.52512C21.8417 2.89197 21.8417 5.10803 20.4749 6.47488L8.9498 18L20.4749 29.5252C21.8417 30.8919 21.8417 33.1081 20.4749 34.4748C19.1082 35.8416 16.892 35.8416 15.5252 34.4748L1.52518 20.4748C0.158356 19.1081 0.158356 16.892 1.52518 15.5251L15.5252 1.52512C16.892 0.158295 19.1082 0.158295 20.4749 1.52512Z" />
+                        </svg>
+                    </button>
+                    <div class="banner__text-wrapper">
+                        <p class="banner__text">Текст на баннер</p>
+                    </div>
+                    <button class="banner__button banner__button--next" type="button">
+                        <span class="visually-hidden">Следующий</span>
+                        <svg class="banner__arrow bunner__arrow--next" width="22" height="36" viewBox="0 0 22 36" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.52518 34.4748C0.158356 33.1081 0.158356 30.8919 1.52518 29.5252L13.0504 18L1.52518 6.47488C0.158356 5.10803 0.158356 2.89197 1.52518 1.52512C2.89203 0.158295 5.10809 0.158295 6.47495 1.52512L20.4749 15.5251C21.8417 16.892 21.8417 19.1081 20.4749 20.4748L6.47495 34.4748C5.10809 35.8416 2.89203 35.8416 1.52518 34.4748Z" />
+                        </svg>
+                    </button>
+                    <div class="banner__slide-ctrl">
+                        <button class="banner__ctrl-btn banner__ctrl-btn--current" type="button">
+                            <span class="visually-hidden">1</span>
+                        </button>
+                        <button class="banner__ctrl-btn" type="button">
+                            <span class="visually-hidden">2</span>
+                        </button>
+                        <button class="banner__ctrl-btn" type="button">
+                            <span class="visually-hidden">3</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="popular">
+                <h3 class="popular__title">Популярные товары</h3>
+                <ul class="popular__list">
+                    <li class="popular__item">
+                        <article class="popular__product-card product-card">
+                            <div class="product-card__image-wrapper">
+                                <img class="product-card__image" src="img/no-image.png" alt="Изображение товара" width="260" height="260">
+                            </div>
+                            <div class="product-card__info-wrapper">
+                                <h4 class="product-card__title">Наименование товара</h4>
+                                <p class="product-card__price">4 500 руб./шт</p>
+                                <div class="product-card__purchase">
+                                    <div class="product-card__counter">
+                                        <button class="product-card__counter-btn product-card__counter-btn--dec" type="button">
+                                            <span class="visually-hidden">-</span>
+                                        </button>
+                                        <span class="product-card__count">1</span>
+                                        <button class="product-card__counter-btn product-card__counter-btn--inc" type="button">
+                                            <span class="visually-hidden">+</span>
+                                        </button>
+                                    </div>
+                                    <button class="product-card__button" type="button">В корзину</button>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="popular__item">
+                        <article class="popular__product-card product-card">
+                            <div class="product-card__image-wrapper">
+                                <img class="product-card__image" src="img/no-image.png" alt="Изображение товара" width="260" height="260">
+                            </div>
+                            <div class="product-card__info-wrapper">
+                                <h4 class="product-card__title">Тут длинное наименование товара в две строки</h4>
+                                <p class="product-card__price">2 300 руб./шт</p>
+                                <div class="product-card__purchase">
+                                    <div class="product-card__counter">
+                                        <button class="product-card__counter-btn product-card__counter-btn--dec" type="button">
+                                            <span class="visually-hidden">-</span>
+                                        </button>
+                                        <span class="product-card__count">1</span>
+                                        <button class="product-card__counter-btn product-card__counter-btn--inc" type="button">
+                                            <span class="visually-hidden">+</span>
+                                        </button>
+                                    </div>
+                                    <button class="product-card__button" type="button">В корзину</button>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="popular__item">
+                        <article class="popular__product-card product-card">
+                            <div class="product-card__image-wrapper">
+                                <img class="product-card__image" src="img/no-image.png" alt="Изображение товара" width="260" height="260">
+                            </div>
+                            <div class="product-card__info-wrapper">
+                                <h4 class="product-card__title">Наименование товара</h4>
+                                <p class="product-card__price">500 руб./шт</p>
+                                <div class="product-card__purchase">
+                                    <div class="product-card__counter">
+                                        <button class="product-card__counter-btn product-card__counter-btn--dec" type="button">
+                                            <span class="visually-hidden">-</span>
+                                        </button>
+                                        <span class="product-card__count">1</span>
+                                        <button class="product-card__counter-btn product-card__counter-btn--inc" type="button">
+                                            <span class="visually-hidden">+</span>
+                                        </button>
+                                    </div>
+                                    <button class="product-card__button" type="button">В корзину</button>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <section class="promo">
+                <div class="promo__upper-wrapper">
+                    <h3 class="promo__title">Акции</h3>
+                    <a class="promo__link promo__link--all" href="#no_scroll">Все акции</a>
+                </div>
+                <ul class="promo__list">
+                    <li class="promo__item">
+                        <div class="promo__item-wrapper">
+                            <div class="promo__image-wrapper">
+                                <img class="promo__image" src="img/image1.png" width="260" height="200" alt="Promo Image">
+                            </div>
+                            <div class="promo__date-wrapper">
+                                <p class="promo__date">12.12.20</p>
+                            </div>
+                        </div>
+                        <a class="promo__link" href="#no_scroll">Скидки до 70%!</a>
+                    </li>
+                    <li class="promo__item">
+                        <div class="promo__item-wrapper">
+                            <div class="promo__image-wrapper">
+                                <img class="promo__image" src="img/image2.png" width="260" height="200" alt="Promo Image">
+                            </div>
+                            <div class="promo__date-wrapper">
+                                <p class="promo__date">12.12.20</p>
+                            </div>
+                        </div>
+                        <a class="promo__link" href="#no_scroll">Супер-скидки месяца на популярные товары!</a>
+                    </li>
+                    <li class="promo__item">
+                        <div class="promo__item-wrapper">
+                            <div class="promo__image-wrapper">
+                                <img class="promo__image" src="img/image3.png" width="260" height="200" alt="Promo Image">
+                            </div>
+                            <div class="promo__date-wrapper">
+                                <p class="promo__date">12.12.20</p>
+                            </div>
+                        </div>
+                        <a class="promo__link" href="#no_scroll">Оставьте нам отзыв и получите подарок</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="company-info">
+                <h3 class="company-info__title">О компании</h3>
+                <p class="company-info__text">Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям. Товарищи! рамки и место обучения кадров требуют определения и уточнения новых предложений. Задача организации, в особенности же дальнейшее развитие различных форм деятельности способствует подготовки и реализации дальнейших направлений развития. С другой стороны сложившаяся структура организации позволяет выполнять важные задания по разработке модели развития.</p>
+                <p class="company-info__text">Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям. Товарищи! рамки и место обучения кадров требуют определения и уточнения новых предложений. Задача организации, в особенности же дальнейшее развитие различных форм деятельности способствует подготовки и реализации дальнейших направлений развития. С другой стороны сложившаяся структура организации позволяет выполнять важные задания по разработке модели развития.</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__upper-wrapper container">
+            <div class="footer__img-wrapper">
+                <a class="footer__link footer__link--image" href="#logo">
+                    <img class="footer__image" src="img/logo-white.svg" alt="Logo" width="127" height="101">
+                </a>
+            </div>
+            <ul class="footer__list">
+                <li class="footer__item footer__item--adress">г. Новосибирск, ул.&nbsp;Новосибирская , 222</li>
+                <li class="footer__item footer__item--email">
+                    <a class="footer__link footer__link--email" href="mailto:logo@mail.ru">logo@mail.ru</a>
+                </li>
+                <li class="footer__item footer__item--tel">
+                    <a class="footer__link footer__link--tel" href="tel:+73830000000">+7 (383) 000-00-00</a>
+                    <a class="footer__link footer__link--tel" href="tel:+73830000000">+7 (383) 000-00-00</a>
+                </li>
+            </ul>
+        </div>
+        <!-- LINE -->
+        <div class="footer__lower-wrapper container">
+            <div class="footer__info-wrapper">
+                <p class="footer__text">© 2020 logo.ru</p>
+                <a class="footer__link footer__link--policy" href="#policy">Политика конфиденциальности</a>
+                <p class="footer__text footer__text--details">logo@mail.ru — электронная почта для обращений с вопросом о своих персональных данных, в том числе об их удалении.</p>
+            </div>
+            <div class="footer__developers developers">
+                <div class="developers__textlink-wrapper">
+                    <a class="developers__link" href="#developers">Создание сайтов</a>
+                    <a class="developers__link" href="#developers">Продвижение сайтов</a>
+                </div>
+                <div>
+                    <a class="developers__link developers__link--image" href="#developers">
+                        <img src="img/kontur.svg" width="58" height="39" alt="Kontur Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <span class="visually-hidden">Тестовое задание для компании Kontur. Выполнил Арсений Кудрявцев.</span>
+    </footer>
+</body>
+
+</html>
